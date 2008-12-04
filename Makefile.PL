@@ -5,5 +5,6 @@ all_from 'lib/Catalyst/Plugin/Geography.pm';
 
 requires 'IP::Country::Fast';
 requires 'Geography::Countries';
+requires 'Class::Accessor::Fast';
 
 WriteAll;
